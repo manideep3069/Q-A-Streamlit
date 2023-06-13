@@ -163,7 +163,7 @@ import transformers
 from transformers import BertForQuestionAnswering, BertTokenizer
 import torch
 
-st.debug(True)
+st.set_option('deprecation.showfileUploaderEncoding', False)
 # Load the pre-trained model and tokenizer
 model_name = 'bert-base-uncased'
 model = BertForQuestionAnswering.from_pretrained(model_name)
