@@ -155,10 +155,10 @@
 
 # # # # if __name__ == '__main__':
 # # # #     main()
-pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+
 import os
 import tempfile
-from transformers import torch
+import pytorch as torch
 from transformers import BertForQuestionAnswering, BertTokenizer
 import streamlit as st
 
