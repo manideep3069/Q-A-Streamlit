@@ -158,7 +158,7 @@
 
 import os
 import tempfile
-import pytorch as torch
+from transformers import pytorch as torch
 from transformers import BertForQuestionAnswering, BertTokenizer
 import streamlit as st
 
