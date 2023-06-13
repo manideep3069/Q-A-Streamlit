@@ -158,8 +158,8 @@
 
 import os
 import tempfile
-from transformers import pytorch as torch
 from transformers import BertForQuestionAnswering, BertTokenizer
+import torch
 import streamlit as st
 
 # Load the pre-trained model and tokenizer
