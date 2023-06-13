@@ -155,12 +155,12 @@
 
 # # # # if __name__ == '__main__':
 # # # #     main()
-
+import streamlit as st
 import os
 import tempfile
 from transformers import BertForQuestionAnswering, BertTokenizer
 import torch
-import streamlit as st
+
 
 # Load the pre-trained model and tokenizer
 model_name = 'bert-base-uncased'
