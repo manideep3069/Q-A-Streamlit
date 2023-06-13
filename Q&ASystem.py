@@ -155,6 +155,7 @@
 
 # # # # if __name__ == '__main__':
 # # # #     main()
+
 import streamlit as st
 import os
 import tempfile
@@ -162,7 +163,7 @@ import transformers
 from transformers import BertForQuestionAnswering, BertTokenizer
 import torch
 
-
+st.debug(True)
 # Load the pre-trained model and tokenizer
 model_name = 'bert-base-uncased'
 model = BertForQuestionAnswering.from_pretrained(model_name)
